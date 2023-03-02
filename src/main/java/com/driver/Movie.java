@@ -6,9 +6,9 @@ public class Movie {
     private double imdbRating;
 
     public Movie(){
-
+// default constructor
     }
-    public Movie(String name,int durationInMinutes,double imdbRating){
+    public Movie(String name,int durationInMinutes,double imdbRating){  // constructor with parameter
         this.name=name;
         this.durationInMinutes=durationInMinutes;
         this.imdbRating=imdbRating;
